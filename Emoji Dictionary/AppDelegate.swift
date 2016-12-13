@@ -2,8 +2,8 @@
 //  AppDelegate.swift
 //  Emoji Dictionary
 //
-//  Created by Son Nguyen on 12/10/16.
-//  Copyright © 2016 Son Nguyen. All rights reserved.
+//  Created by Nick Walter on 8/1/16.
+//  Copyright © 2016 Zappy Code. All rights reserved.
 //
 
 import UIKit
@@ -14,7 +14,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
     var window: UIWindow?
 
 
-    func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplicationLaunchOptionsKey: Any]?) -> Bool {
+    func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplicationLaunchOptionsKey: Any]? = nil) -> Bool {
         // Override point for customization after application launch.
         return true
     }
